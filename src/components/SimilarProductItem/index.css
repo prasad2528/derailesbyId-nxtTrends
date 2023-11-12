@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.similar-img {
+  width: 200px;
+  border-radius: 8px;
+  padding: 0;
+}
+.price-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -10px;
+}
+.list-item {
+  padding: 0;
+}
+.similar-title {
+  font-size: 20px;
+  margin-top: 5px;
+}

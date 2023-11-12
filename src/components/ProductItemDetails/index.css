@@ -1,0 +1,121 @@
+/* Write your CSS here */
+.rating-container {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  padding: 6px 16px;
+  width: 70px;
+}
+.product-img {
+  width: 550px;
+  height: 500px;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+.product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+.card-container {
+  display: flex;
+  width: 60%;
+}
+.details-container {
+  padding: 0;
+}
+.product-title {
+  color: #12022f;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.product-price {
+  margin-bottom: 15px;
+  color: #12022f;
+  font-weight: 800;
+}
+.product-reviews {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 15px;
+}
+.product-review {
+  color: #1e293b;
+  font-weight: 700;
+  font-size: 14px;
+}
+.product-description {
+  color: #616e7c;
+  font-weight: 500;
+}
+.product-available {
+  color: #616e7c;
+  font-weight: 500;
+}
+.span {
+  color: #171f46;
+}
+.quantity-container {
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 13px;
+}
+.icon {
+  font-size: 30px;
+  color: #616e7c;
+  cursor: pointer;
+}
+.button {
+  background-color: #3b82f6;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 120px;
+  color: #ffffff;
+}
+.similar-container {
+  margin-top: 20px;
+  width: 60%;
+}
+.products-list-cont {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.error {
+  width: 50%;
+}
+.failure-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
+  cursor: pointer;
+}
+.failure-btn {
+  outline: none;
+  border: none;
+  width: 200px;
+  border-radius: 10px;
+  height: 40px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  cursor: pointer;
+}
+.quantity-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
